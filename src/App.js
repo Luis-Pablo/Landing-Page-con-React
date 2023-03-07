@@ -1,14 +1,25 @@
 
 import './App.css';
-import Card from './components/card';
+import CardImg from './components/card';
+import Jumbotron from './components/jumbotron';
+import Navbar from './components/navbar';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hols</h1>
-      <Card />
-      
-    </div>
+    <>
+      <Navbar />
+      <div className='container'>
+        <Jumbotron />
+        <CardImg />
+      </div>
+
+    </>
   );
 }
 
+
+
 export default App;
+
+
+

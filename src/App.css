@@ -2,3 +2,17 @@
   text-align: center;
 }
 
+
+.card {
+  width: 19rem;
+}
+
+.card img {
+  width: 300px;
+}
+
+.card-title{
+  font-weight: 700;  
+  padding: 12px;
+}
+
